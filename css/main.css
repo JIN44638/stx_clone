@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* 폰트적용 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* css파일 연결 */
+@import url("header.css");
+@import url("about.css");
+@import url("business.css");
+@import url("cs.css");
+@import url("footer.css");
+@import url("news.css");
+@import url("visual.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+body{
+     font-family: "Noto Sans", sans-serif;
+}
+/* 공통영역 -inner 영역 */
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.wrap{
+    /* position: relative; 찾기 쉽게 하기위해 미리 입력함 */
+    position: relative;
+    /* 미리 해두면 편해서 꼭 할필요X */
+    display: block;
+}
