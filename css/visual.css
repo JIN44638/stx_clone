@@ -1,1 +1,48 @@
 @charset "utf-8";
+.visual {
+  position: relative;
+  width: 100%;
+  background: url("../images/img_visual01.png") no-repeat center fixed;
+  height: 910px;
+  background-size: cover;
+  padding-top: 80px;
+  color: #fff;
+}
+.visual-inner {
+  padding-top: 245px;
+}
+.visual-slogan {
+  font-size: 70px;
+  font-weight: 500;
+  line-height: 1;
+  position: relative;
+}
+.visual-slogan::before {
+  position: absolute;
+  left: 0px;
+  top: -48px;
+  width: 60px;
+  height: 5px;
+  background-color: #4a0406;
+  content: "";
+}
+.visual-txt {
+  display: block;
+  font-size: 21px;
+  margin-top: 40px;
+}
+.visual-btn {
+  width: 33px;
+  height: 33px;
+  /* 글자 없애려면  font-size: 0으로 하면됨*/
+  font-size: 0;
+  border: 0;
+  /* 이미지에 써야할 이미지 통합으로 있어서 이미지 이동해서 내가 써야할 이미지 보이게 위치 변경함 */
+  background: url("../images/bg_common.png") no-repeat;
+  /* background-position: x축 y축; */
+  background-position: -122px 0px;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
