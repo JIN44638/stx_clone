@@ -1,1 +1,152 @@
 @charset "utf-8";
+/* 고객센터 */
+.custom {
+  width: 100%;
+  background-color: rgb(235, 235, 235);
+}
+.custom-inner {
+  display: flex;
+  gap: 2px;
+  padding: 50px 0;
+}
+/* 고객센터 왼쪽 */
+.custom-left {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  width: 50%;
+  padding: 50px 50px;
+}
+.custom-left h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.custom-left a {
+  display: block;
+}
+.custom-left a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 350px;
+  width: 200px;
+  height: 160px;
+  background: url("../images/bg_faq.png") no-repeat;
+  background-position: 20px 55px;
+}
+/* 고객센터 오른쪽 */
+.custom-right {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  width: 50%;
+  padding: 50px 50px;
+}
+.custom-right h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.custom-right a {
+  display: block;
+}
+.custom-right a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 350px;
+  width: 200px;
+  height: 160px;
+  background: url("../images/bg_custom.png") no-repeat;
+  background-position: 50px 40px;
+}
+.custom-right a p {
+  color: rgb(77, 77, 77);
+}
+/* <!-- about us --> */
+.about {
+  width: 100%;
+  height: 900px;
+  padding: 80px 50px;
+}
+.about-inner {
+  position: relative;
+}
+.about-title {
+  text-transform: uppercase;
+  font-size: 40px;
+}
+.about-text {
+  padding-top: 50px;
+  padding-left: 100px;
+}
+.about-stitle {
+  font-size: 18px;
+  position: relative;
+  padding-bottom: 30px;
+}
+/* 구분선 빨강 */
+.about-stitle::before {
+  position: absolute;
+  left: -90px;
+  top: 20px;
+  width: 40px;
+  height: 5px;
+  background-color: #fd020b;
+  content: "";
+}
+
+.about-inner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0px;
+  width: 600px;
+  height: 369px;
+  background: url("../images/img_about.png") no-repeat;
+  background-position: 0px 0px;
+}
+/* <!-- about 하단 --> */
+.about-bottom {
+  display: flex;
+  width: 100%;
+  padding-top: 400px;
+  padding-bottom: 100px;
+  gap: 200px;
+  justify-content: center;
+  position: relative;
+ }
+
+.about-bottom li::after {
+  content: "";
+  position: absolute;
+  top: 270px;
+  left: 240px;
+  width: 110px;
+  height: 110px;
+  background: url("../images/bg_icon.png") no-repeat;
+  background-position: 0px 0px;
+}
+
+.about-bottom li:nth-child(2)::after{
+     content: "";
+  position: absolute;
+  top: 270px;
+  left: 540px;
+  width: 110px;
+  height: 110px;
+  background: url("../images/bg_icon.png") no-repeat;
+  background-position: -120px 0px;
+}
+
+.about-bottom li:nth-child(3)::after{
+     content: "";
+  position: absolute;
+  top: 270px;
+  left: 840px;
+  width: 110px;
+  height: 110px;
+  background: url("../images/bg_icon.png") no-repeat;
+  background-position: -230px 0px;
+}
+
+
+
+
