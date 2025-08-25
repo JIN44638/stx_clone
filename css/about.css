@@ -76,15 +76,17 @@
 .about-text {
   display: flex;
   justify-content: space-between;
+
   /* padding-top: 50px;
   padding-left: 100px; */
  
 }
+.about-contents{
+  
+}
 .about-left {
-  position: absolute;
-  top: 100px;
-  left: 80px;
- 
+ padding-top: 50px;
+ padding-left: 100px;
 }
 .about-stitle {
   font-size: 18px;
